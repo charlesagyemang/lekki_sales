@@ -1,7 +1,8 @@
 package com.michealbadu.rssweatherapp.Utilities;
 
-import android.util.Log;
 import android.util.Xml;
+
+import com.michealbadu.rssweatherapp.Models.Item;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

@@ -1,15 +1,13 @@
 package com.michealbadu.rssweatherapp.Utilities;
 
 
-import android.util.Log;
-
+import com.michealbadu.rssweatherapp.Models.Item;
 import com.michealbadu.rssweatherapp.Services.APISERVICE;
 import com.michealbadu.rssweatherapp.Services.ItemResponseData;
 
 import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.ArrayList;
 
 import okhttp3.ResponseBody;

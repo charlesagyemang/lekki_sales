@@ -1,6 +1,6 @@
 package com.michealbadu.rssweatherapp.Services;
 
-import com.michealbadu.rssweatherapp.Utilities.Item;
+import com.michealbadu.rssweatherapp.Models.Item;
 
 import java.util.ArrayList;
 

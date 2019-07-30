@@ -1,4 +1,4 @@
-package com.michealbadu.rssweatherapp.Utilities;
+package com.michealbadu.rssweatherapp.Models;
 
 public class Item {
     private String title, link, description, pubDate, guid, dcDate, georssPoint;
