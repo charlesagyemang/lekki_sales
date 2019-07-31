@@ -8,7 +8,7 @@
     tools:context=".LocationPage">
 
     <RelativeLayout
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -106,7 +106,7 @@
             android:textSize="15sp"
             android:paddingTop="2dp"
             android:textColor="#ffffff"
-            android:layout_below="@+id/btnGetGlasgowData"
+            android:layout_below="@+id/btnGetNewYorkData"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignRight="@+id/btnGetNewYorkData"
@@ -164,23 +164,7 @@
             android:layout_alignEnd="@+id/btnGetBangladeshData"
             android:layout_marginBottom="20dp"
             />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Get Accra Weather Data"
-            android:id="@+id/btnGetNull"
-            android:gravity="center_vertical|center_horizontal"
-            android:background="#000"
-            android:textSize="15sp"
-            android:paddingTop="2dp"
-            android:textColor="#ffffff"
-            android:layout_below="@+id/btnGetAccraData"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/btnGetAccraData"
-            android:layout_alignEnd="@+id/btnGetAccraData"
-            android:layout_marginBottom="20dp"
-            />
+
     </RelativeLayout>
 
 </ScrollView>
