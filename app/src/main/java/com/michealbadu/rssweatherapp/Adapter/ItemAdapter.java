@@ -17,7 +17,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
     public ItemAdapter(Context context, int resource, List<Item> items){
         super(context, android.R.layout.simple_list_item_1 ,items);
 
-        Toast.makeText(context, "There are " + items.size() + "items in the list", Toast.LENGTH_LONG).show();
+//        Toast.makeText(context, "There are " + items.size() + "items in the list", Toast.LENGTH_LONG).show();
     }
 
     @Override

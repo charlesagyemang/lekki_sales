@@ -18,14 +18,14 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Globall {
-    public static void getItems (final ItemResponseData itemResponseData) throws IOException, XmlPullParserException {
+    public static void getItems (String url, final ItemResponseData itemResponseData) throws IOException, XmlPullParserException {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://weather-broker-cdn.api.bbci.co.uk/en/forecast/rss/3day/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         APISERVICE service = retrofit.create(APISERVICE.class);
-        Call<ResponseBody> result = service.getCalls("1545752");
+        Call<ResponseBody> result = service.getCalls(url);
         result.enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
